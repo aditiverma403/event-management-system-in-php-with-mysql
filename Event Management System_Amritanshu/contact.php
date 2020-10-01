@@ -16,7 +16,7 @@
               mysqli_query($conn,$qry);
               echo "<script>window.alert('Your message has been sent.!');</script>";
           }else{
-            echo "<script>window.alert('Please fill all the fields!');</script>";
+            echo "<script>window.alert('Please fill all the given fields!');</script>";
           }
         }
         ?><!--js links. file found in utils folder-->
